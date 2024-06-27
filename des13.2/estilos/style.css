@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -42,3 +42,21 @@ iframe#tela {
     width: 267px;
 }
 
+#redes {
+    text-align: right;
+    padding-top: 30px;
+}
+
+#redes> a>img {
+    height: 50px; 
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 3px 3px rgb(90, 87, 87); 
+    box-sizing: border-box; 
+}
+
+#redes> a>img:hover {
+    border: 2px solid rgb(199, 196, 196);
+    transform: translate(-10px, -5px);
+    transition: transform 1s;
+}
